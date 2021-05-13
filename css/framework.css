@@ -94,6 +94,3 @@
     max-width: calc((100% / 12) * 12);
 }
 
-.between-xs {
-    justify-content: space-between;
-}
