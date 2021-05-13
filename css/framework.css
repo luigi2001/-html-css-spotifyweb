@@ -8,6 +8,10 @@
    margin: 20px; 
 }
 
+.margin-laterali{
+    margin: 0 20px;
+}
+
 .border-radius{
     border-radius: 50%;
 }
@@ -22,8 +26,13 @@
 } 
 
 .row {
-    display: flex;;
+    display: flex;
     flex-wrap: wrap;
+}
+
+.row-reverse{
+    display: flex;
+    flex-flow: column wrap;
 }
 
 [class*="col-"] {
@@ -83,4 +92,8 @@
 .col-xs-12 {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+}
+
+.between-xs {
+    justify-content: space-between;
 }
