@@ -1,13 +1,8 @@
+
 .box-container{
     width: 100%;
     height: calc(100vh - 80px);
     border: 1px solid black;
-}
-
-#main{
-    width: 100%;
-    height: calc(100vh - 80px);
-    overflow: auto;
 }
 
 /*nav*/
@@ -78,16 +73,34 @@ nav{
 
 /*fine nav*/
 
+#main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow: auto;
+}
+
+/*header fixed*/
 
 #box-header{
-    width: 100%;
+    width: calc((100% / 12) * 10);
     height: 80px;
+    line-height: 80px;
     background-color: black;
-    border: 1px solid white;
     position: fixed;
+    left: 256px;
     top: 0;
     z-index: 1;
+    text-align: right;
 }
+
+#box-header span a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+/*fine header fixed*/
 
 #nav-main{
     width: 100%;
