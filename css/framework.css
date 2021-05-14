@@ -27,7 +27,6 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .row-reverse{
