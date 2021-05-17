@@ -184,16 +184,8 @@
         margin-bottom: 10px;
     }
 
-    #special-icons ul{
-        list-style: none;
-    }
-
     nav .nav-top .menu ul{
         display: none;
-    }
-
-    nav .nav-top .menu ul li a{
-        display: block;
     }
 
     .playlist{
@@ -433,6 +425,23 @@ footer .player-center a i{
     display: none;
 }
 
+nav .nav-top img{
+    display: block;
+}
+
+nav .nav-top .menu ul{
+    display: block;
+}
+
+.playlist{
+    display: block;
+}
+
+.nav-bottom{
+    display: block;
+}
+
+
 }
 
 @media screen and (min-width: 756px){
@@ -603,6 +612,23 @@ footer .player-center a i{
     display: none;
 }
 
+nav .nav-top img{
+    display: block;
+}
+
+nav .nav-top .menu ul{
+    display: block;
+}
+
+.playlist{
+    display: block;
+}
+
+.nav-bottom{
+    display: block;
+}
+
+
 }
 
 @media screen and (min-width: 992px){
@@ -772,6 +798,23 @@ footer .player-center a i{
 .special-icon{
     display: none;
 }
+
+nav .nav-top img{
+    display: block;
+}
+
+nav .nav-top .menu ul{
+    display: block;
+}
+
+.playlist{
+    display: block;
+}
+
+.nav-bottom{
+    display: block;
+}
+
 
 }
 
